@@ -1,5 +1,6 @@
 package com.example.testdemo
 
 fun main(){
-    print("Test")
+    var a = 10;
+    print(++a)
 }
