@@ -1,10 +1,10 @@
 package com.example.testdemo
 
 fun main(){
-    var name: String = "Denis"
+    var name: String = "Srikanth"
 // name = null // Compilation Error
 
-    var nullableName: String? = "Denis"
+    var nullableName: String? = "Srikanth"
     nullableName = null // Works
 
 // Here name cannot/must not be null
@@ -17,7 +17,7 @@ fun main(){
 
 // So how can we solve this? We could do a null check before hand
 
-    val nullableName2: String? = "Denis"
+    val nullableName2: String? = "Srikanth"
 
     if(nullableName2 != null) {
         println("Hello, ${nullableName2.toLowerCase()}.")
