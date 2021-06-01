@@ -19,11 +19,12 @@ class MainActivity3 : AppCompatActivity() {
 
         btn.setOnClickListener(View.OnClickListener {
            // var a:Editable = input.text;
-           // var num:Int = a.toString().toInt();
+           // var b:String = a.toString()
+           // var num:Int = b.toInt();
 
-            var num:Int = input.text.toString().toInt();
-            var i:Int = 1;
-            var s:String = "";
+            var num:Int = input.text.toString().toInt()
+            var i:Int = 1
+            var s:String = ""
             while (true){
                 s += "$i@" // s = s + i
                 if(i==num){
@@ -32,6 +33,7 @@ class MainActivity3 : AppCompatActivity() {
                 ++i
             }
             result.setText(s)
+            input.setText("")
         });
     }
 }

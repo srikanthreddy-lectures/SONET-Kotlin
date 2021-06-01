@@ -6,4 +6,10 @@
         <item>Yellow</item>
         <item>Blue</item>
     </string-array>
+    <string-array name="operators">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
 </resources>
