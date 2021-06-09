@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/board"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3"
+        app:columnCount="3"
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="coinAppear"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="-6dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:onClick="coinAppear"
+            android:tag="1"
+             />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="0dp"
+            android:onClick="coinAppear"
+            android:tag="2"
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="coinAppear"
+            android:tag="3"
+
+             />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="-6dp"
+            android:onClick="coinAppear"
+            android:tag="4"
+
+             />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="0dp"
+            android:onClick="coinAppear"
+            android:tag="5"
+             />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="coinAppear"
+            android:tag="6"
+             />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="-6dp"
+            android:onClick="coinAppear"
+            android:tag="7"
+
+             />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="0dp"
+            android:onClick="coinAppear"
+            android:tag="8"
+             />
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
