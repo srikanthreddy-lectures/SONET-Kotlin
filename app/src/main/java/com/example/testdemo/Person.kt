@@ -1,13 +1,17 @@
 package com.example.testdemo
 
-class Person {
-    var name:String? = null
-    set(value){
-        field = value?.toUpperCase()
+class Person(var name:String, var weightLbs:Double) {
+   var weightKilo:Double
+   get() = weightLbs/2.0
+    set(value) {
+        weightLbs =  value*2.0
     }
 
-    var gender:String? = null
+    fun eatSweet(addIcescream:Boolean){
+        weightLbs += if(addIcescream) 4.0 else 2.0
+    }
 
-    var age:Int = 0
-    set(value) = if(value<18) field=0 else field=value
+    fun calGoal(weightToLoos:Double):Double{
+        return weightLbs - weightToLoos
+    }
 }

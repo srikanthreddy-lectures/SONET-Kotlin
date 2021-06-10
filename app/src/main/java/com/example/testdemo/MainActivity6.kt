@@ -19,14 +19,14 @@ class MainActivity6 : AppCompatActivity() {
         var btn = findViewById<Button>(R.id.btn_6)
 
         btn.setOnClickListener(View.OnClickListener {
-            val person = Person()
-            person.name = name.text.toString()
-            person.gender = gender.text.toString()
-            person.age = age.text.toString().toInt()
+            //val person = Person()
+            //person.name = name.text.toString()
+            //person.gender = gender.text.toString()
+            //person.age = age.text.toString().toInt()
 
-            var result = if(person.age!=0)"${person.name}" else "Person is minor"
+           // var result = if(person.age!=0)"${person.name}" else "Person is minor"
 
-            Toast.makeText(this, result, Toast.LENGTH_LONG).show()
+           // Toast.makeText(this, result, Toast.LENGTH_LONG).show()
 
 
         });
