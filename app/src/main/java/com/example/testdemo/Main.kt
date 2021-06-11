@@ -1,9 +1,16 @@
 package com.example.testdemo
 
 fun main(){
-   var p1:Person = Person("Skr")
-    //println(p1.name)
-    //println(p1.weightKilo)
-    //println(p1.eatSweet(false))
-    //println(p1.weightKilo)
+
+    var boy = Boy()
+
+    boy.displayAge(30);
+    boy.m1(12)
+
+
+
+  //var admin = Admin("Scott","Male")
+   //admin.display()
+  // var user = User("Bob","Male")
+  // user.display()
 }
