@@ -19,7 +19,7 @@ class SonetQuiz : AppCompatActivity() {
 
         q_btn.setOnClickListener(View.OnClickListener {
             Log.i("------->","Hello")
-            if(q_name.toString().isEmpty()){
+            if(q_name.text.toString().isEmpty()){
                 Toast.makeText(this@SonetQuiz,"Please enter name",Toast.LENGTH_LONG).show()
             }
             else{
