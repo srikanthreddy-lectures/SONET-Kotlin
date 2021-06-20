@@ -1,8 +1,9 @@
 [{
-  "Question":"What is C",
-  "OptionA":"Programming Language",
-  "OptionB":"Programming Language",
-  "OptionC":"Programming Language",
-  "OptionD":"Programming Language",
-  "Answer":1,
+  "id":1,
+  "question":"What is C",
+  "optOne":"Programming Language",
+  "optTwo":"Programming Language",
+  "optThree":"Programming Language",
+  "optFour":"Programming Language",
+  "answer":1,
 }]
