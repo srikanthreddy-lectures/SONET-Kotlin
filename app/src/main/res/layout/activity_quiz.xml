@@ -30,7 +30,7 @@
             android:gravity="center"
             android:layout_margin="10dp"
             android:textSize="22sp"
-            android:padding="20dp"
+            android:padding="5dp"
             >
         </TextView>
 
@@ -49,13 +49,12 @@
             android:id="@+id/q_question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What is JVM?"
-            android:gravity="center"
             android:layout_margin="10dp"
-            android:textSize="22sp"
-            android:padding="20dp"
             android:background="@drawable/default_option_border_bg"
-            >
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="What is JVM?"
+            android:textSize="22sp">
 
         </TextView>
 
@@ -73,11 +72,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="#0F158E"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg"
             >
         </TextView>
@@ -86,11 +85,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="#0F158E"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg"
             >
         </TextView>
@@ -99,11 +98,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="#0F158E"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg"
             >
         </TextView>
@@ -112,11 +111,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="#0F158E"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg"
             >
         </TextView>
