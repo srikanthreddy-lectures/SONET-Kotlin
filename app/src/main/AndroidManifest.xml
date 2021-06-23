@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestDemo">
-        <activity android:name=".NoteTakingScreen2Activity"></activity>
+        <activity android:name=".NoteTakingScreen3Activity"></activity>
+        <activity android:name=".NoteTakingScreen2Activity" />
         <activity
             android:name=".NoteTakingActivity"
             android:label="@string/title_activity_note_taking"

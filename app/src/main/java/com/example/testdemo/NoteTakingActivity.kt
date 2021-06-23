@@ -2,6 +2,8 @@ package com.example.testdemo
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ArrayAdapter
+import android.widget.ListView
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -23,6 +25,16 @@ class NoteTakingActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
 
+        var dm=DataManager()
+
+        var list = findViewById<ListView>(R.id.note_listview)
+        list.adapter = ArrayAdapter<NoteInfo>(this,android.R.layout.simple_list_item_1,dm.notes)
+
+        list.setOnItemClickListener { parent,view,position,id ->
+            val intent = Intent(this,NoteTakingScreen3Activity()::class.java)
+            intent.putExtra("item_position",position)
+            startActivity(intent)
+        }
 
 
         binding.fab.setOnClickListener { view ->
