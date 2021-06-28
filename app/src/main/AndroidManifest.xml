@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" /> <!-- This permission is for Internet connection established. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestDemo">
-        <activity android:name=".NoteTakingScreen3Activity"></activity>
+        <activity android:name=".LaunchExternalAppActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NoteTakingScreen3Activity" />
         <activity android:name=".NoteTakingScreen2Activity" />
         <activity
             android:name=".NoteTakingActivity"
