@@ -1,5 +1,13 @@
 package com.example.testdemo
 
-class User(name:String,gender:String) : Person1(name, gender){
+import android.arch.persistence.room.Entity
+import android.arch.persistence.room.PrimaryKey
 
-}
+@Entity
+data class User(
+    @PrimaryKey(autoGenerate = true)
+    var id:Int,
+    var firstName:String,
+    var lastName:String,
+    var age:Int
+    )
